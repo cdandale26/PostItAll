@@ -18,11 +18,17 @@ function App() {
     )
     setNotes(tempNotes);
   }
+
+  const deleteNote = (id) =>{
+    const tempNotes =[...notes];
+    let newNotes = tempNotes.filter(element => element.id !== id);
+    console.log(newNotes);
+    setNotes(newNotes);
+  }
   return (
-    <div className="App">
-      
+    <div className="App">  
       <Sidebar addNote={addNote}/>
-      <NoteContainer notes={notes}/>
+      <NoteContainer notes={notes} deleteNote={deleteNote}/>
     </div>
   );
 }
