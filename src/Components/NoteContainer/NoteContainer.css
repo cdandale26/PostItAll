@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
 
-
-
 .note-container{
     height:100%;  
 }
@@ -9,13 +7,22 @@
 .note-container h2{
    margin-left:1rem;
    font-family: 'Comic Neue', cursive;
-   font-size: 32px;
+   font-size: 2rem;
 }
 
 .note-container-notes{
-    display:flex;
-    flex-wrap:wrap;
-    gap:2rem;
-    height:90%;
-    overflow-y:scroll
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    height: 90%;
+    overflow-y: scroll;
+    padding: 10px;
+}
+.onloadText{
+    width:60vw;
+
+}
+.note-container-notes img{
+    display:block;
+    height:50%
 }

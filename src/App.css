@@ -2,7 +2,7 @@
     height:100vh;
     display:flex;
     gap:1.5rem;
-    padding:2.5rem
+    padding:2.5rem;
 }
 
 .custom-scroll::-webkit-scrollbar{

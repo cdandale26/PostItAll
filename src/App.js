@@ -5,10 +5,12 @@ import Sidebar from './Components/Sidebar/Sidebar';
 import {useState} from 'react'
 
 function App() {
-  const [notes,setNotes] =useState([]);
+  const [notes,setNotes] =useState([
+  ]);
 
   const addNote = (color) =>{
     const tempNotes =[...notes];
+    
     tempNotes.push({
         id:Date.now()+""+Math.floor(Math.random()*78),
         text:"",
@@ -22,7 +24,6 @@ function App() {
   const deleteNote = (id) =>{
     const tempNotes =[...notes];
     let newNotes = tempNotes.filter(element => element.id !== id);
-    console.log(newNotes);
     setNotes(newNotes);
   }
   return (

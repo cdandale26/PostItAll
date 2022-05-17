@@ -1,6 +1,7 @@
 import React from 'react';
 import Note from '../Note/Note';
-import './NoteContainer.css'
+import './NoteContainer.css';
+import defaultNote from '../../assets/image1.png';
 
 const NoteContainer = (props) =>{
 
@@ -20,7 +21,7 @@ const NoteContainer = (props) =>{
             <div className="note-container-notes custom-scroll">
                 {notes.length >0 ? notes.map((note)=>(
                     <Note key={note.id} note={note} deleteNote={props.deleteNote} />
-                )):<h2> There are no notes to display</h2>}
+                )): <img src={defaultNote} />}
             </div>
         </div>    
     )

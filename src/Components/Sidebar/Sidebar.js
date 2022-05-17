@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import './Sidebar.css';
-import plusIcon from '../../assets/plus.png';
-import '../../assets/delete.png';
+
 
 import AddCircleOutlineRoundedIcon from '@mui/icons-material/AddCircleOutlineRounded';
 
