@@ -18,3 +18,19 @@
     border:none;
 }
 
+.note_footer{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+}
+
+.note_footer .del_icon{
+    cursor:pointer;
+    opacity:0;
+    transition:500ms
+}
+
+.note:hover .note_footer .del_icon{
+    opacity:1
+}
