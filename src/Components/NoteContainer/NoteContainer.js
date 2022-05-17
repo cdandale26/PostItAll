@@ -9,6 +9,7 @@ const NoteContainer = (props) =>{
         for(let i=arr.length-1;i>=0;i--){
             array.push(arr[i])
         }
+        console.log(array);
         return array;
     }
     
@@ -18,7 +19,7 @@ const NoteContainer = (props) =>{
             <h2>Welcome to PostItAll. . .</h2>
             <div className="note-container-notes custom-scroll">
                 {notes.length >0 ? notes.map((note)=>(
-                    <Note key={note.id} note={note} />
+                    <Note key={note.id} note={note} deleteNote={props.deleteNote} />
                 )):<h2> There are no notes to display</h2>}
             </div>
         </div>    
