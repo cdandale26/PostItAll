@@ -20,7 +20,7 @@ const NoteContainer = (props) =>{
             <h2>Welcome to PostItAll. . .</h2>
             <div className="note-container-notes custom-scroll">
                 {notes.length >0 ? notes.map((note)=>(
-                    <Note key={note.id} note={note} deleteNote={props.deleteNote} />
+                    <Note key={note.id} note={note} deleteNote={props.deleteNote} updateText={props.updateText} />
                 )): <img src={defaultNote} />}
             </div>
         </div>    

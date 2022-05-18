@@ -3,6 +3,7 @@
     display:flex;
     gap:1.5rem;
     padding:2.5rem;
+    background: rgba(16, 16, 15, 0.1);
 }
 
 .custom-scroll::-webkit-scrollbar{

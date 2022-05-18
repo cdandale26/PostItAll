@@ -6,7 +6,7 @@ import AddCircleOutlineRoundedIcon from '@mui/icons-material/AddCircleOutlineRou
 
 
 const Sidebar = (props) => {
-    const colors =['#FF9AA2','#fff9ae','#FFDAC1','#E2F0CB','#B5EAD7','#C7CEEA'];
+    const colors =['#f2b95a','#f5dc6f','#f5c0cd','#b1d8b4','#8ccabb','#d6c2d0','#ff9aa2'];
     const [listIsOpen, setListIsOpen] = useState(false);
 
     return(
