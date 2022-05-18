@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/PostItAll/static/css/main.33ed9fc5.css",
+    "main.js": "/PostItAll/static/js/main.9448ed7e.js",
+    "static/media/image1.png": "/PostItAll/static/media/image1.bade0a5b105a9eb5a73c.png",
+    "index.html": "/PostItAll/index.html",
+    "main.33ed9fc5.css.map": "/PostItAll/static/css/main.33ed9fc5.css.map",
+    "main.9448ed7e.js.map": "/PostItAll/static/js/main.9448ed7e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.33ed9fc5.css",
+    "static/js/main.9448ed7e.js"
+  ]
+}
